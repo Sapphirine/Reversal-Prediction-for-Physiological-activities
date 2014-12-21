@@ -46,7 +46,7 @@ def num2features(sent, i):
 
 ratios = [0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5]
 for i in ratios:
-    with open('/Users/HongzhuoZhang/Desktop/EECS6893/TrainingSet/TrainingSet_copy.csv', 'rb') as f:
+    with open('/Users/Zhanghongzhuo/Desktop/EECS6893/TrainingSet/TrainingSet_copy.csv', 'rb') as f:
     	 reader = csv.reader(f)
     	 train_list = list(reader)
 
